@@ -4,7 +4,7 @@ const redis = require("redis");
 const app = express();
 
 // Railway / Docker automatically PORT deta hai
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 // 🔹 Redis client (ONLY env-based, works everywhere)
 const client = redis.createClient({
